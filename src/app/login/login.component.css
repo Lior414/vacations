@@ -1,0 +1,15 @@
+body{
+  background-color: #1f9182;
+  min-height: 100%;
+    height: 100%; 
+}
+
+html{
+  min-height: 100%;
+    height: 100%;
+}
+
+.container{
+  min-height: 100%;
+    height: 100%;
+}

@@ -1,0 +1,29 @@
+<h2 mat-dialog-title>Change Vacation Details</h2>
+
+<mat-dialog-content [formGroup]="editVacation" (ngSubmit)="vacation(editVacation.value)">
+    <mat-form-field>
+        <label>
+            Description:<input matInput type="text"  formControlName="description">
+        </label>
+        <label>
+           Destination:<input matInput type="text"  formControlName="destination">
+        </label>
+        <label>
+            Image:<input matInput type="text" formControlName="image">
+        </label>
+        <label>
+            Dates:<input matInput type="text"  formControlName="dates">
+        </label>
+        <label>
+            Price:<input matInput type="number"  formControlName="price">
+        </label>
+        <label>
+            Followers:<input matInput type="number"  formControlName="followers">
+        </label>
+    </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button class="mat-raised-button" (click)="close()">Close</button>
+    <button class="mat-raised-button mat-primary" type="submit" (click)="vacation(); close()">Save</button>
+</mat-dialog-actions>

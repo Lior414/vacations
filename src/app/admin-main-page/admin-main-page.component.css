@@ -1,0 +1,36 @@
+#header-row{
+  width: 100%;
+  height: 60px;
+  margin: inherit;
+  margin-bottom: 30px;
+  background-image: linear-gradient(to right, rgb(52, 156, 197), rgba(0, 217, 255, 0.5));
+}
+
+h1{
+  color: ivory;
+  position: absolute;
+  left: 15%;
+  font-family: "Brush Script MT", cursive;
+  font-size: 40;
+}
+
+#username-display{
+  position: absolute;
+  right: 50px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.newVacation{
+  position: absolute;
+  left: 65%;
+  top: 2%;
+}
+
